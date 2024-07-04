@@ -1,0 +1,204 @@
+﻿<Window x:Class="LibrarySortApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibrarySortApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900"
+        AllowsTransparency="True" 
+        Background="#FFE7C9"
+        WindowStyle = "None" 
+        ResizeMode= "NoResize" 
+        MouseDown="Window_MouseDown">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid
+            Background="#000"
+            Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btnEnd" Width="18" Content="X"
+                        Margin="25,4,32,3" 
+                    Grid.ColumnSpan="1" Foreground="Red" Click="btnEnd_Click_1"/>
+
+            <TextBlock Text="Study Planner"
+                       Foreground="Black"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       FontFamily="Helvetica"
+                       FontWeight="Bold"
+                       Width="101" Grid.ColumnSpan="4" Margin="70,0,0,0"/>
+        </Grid>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center"
+                    Margin="60">
+
+            <StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,-35,0">
+                    <Image Width="65" Height="55"
+                       Source="images\application.png"
+                           Margin="0,0,20,0"
+                           RenderOptions.BitmapScalingMode="Fant"/>
+
+                    <TextBlock Text="IDENTIFY AREAS"
+                           Foreground="Black"
+                           FontSize="15"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontFamily="Helvetica"/>
+
+                    <Button x:Name="identifyAreas" 
+                        Width="80" Height="30" 
+                        Content="Start"
+                        Margin="80,0,0,0"
+                        Foreground="LawnGreen"
+                        Background="Beige"
+                        Click="btnIdentifyAreas_Click"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" />
+
+                <StackPanel Orientation="Horizontal"/>
+
+            </StackPanel>
+
+        </StackPanel>
+
+        <Grid Grid.RowSpan="2" Grid.Column="1" >
+            <StackPanel 
+                Grid.Row="1" 
+                VerticalAlignment="Center"
+                Margin="60">
+
+                <StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+
+                        <Image Width="330" Height="250"
+                       Source="images/library image.png"
+                       RenderOptions.BitmapScalingMode="Fant"/>
+
+                    </StackPanel>
+
+                    <StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+
+                        </StackPanel>
+
+                        <TextBlock Text="LEARN TO ORGANIZE BOOKS IN A LIBRARY USING THE DEWEY DECIMAL SYSTEM!"
+                           Foreground="Black"
+                           FontSize="13"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontFamily="Helvetica" 
+                       TextWrapping="Wrap"
+                           Margin="0,10,0,0"/>
+
+                        <TextBlock Text="PICK A GAME ON THE LEFT TO BEGIN!"
+                           Foreground="Black"
+                           FontSize="13"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontFamily="Helvetica" 
+                       TextWrapping="Wrap"
+                           Margin="0,10,0,0"/>
+
+                    </StackPanel>
+
+                </StackPanel>
+
+            </StackPanel>
+
+        </Grid>
+
+        <StackPanel Orientation="Horizontal" Margin="60,273,25,142" Grid.Row="1">
+
+            <Image Width="60" Height="60"
+                Source="images\search.png"
+                Margin="0,0,20,0"
+                RenderOptions.BitmapScalingMode="Fant"/>
+
+            <TextBlock Text="FIND CALL NUMBERS"
+                Foreground="Black"
+                FontSize="15"
+                FontWeight="Bold"
+                VerticalAlignment="Center"
+                FontFamily="Helvetica"/>
+
+            <Button x:Name="CallNumbers" 
+                Width="80" Height="30" 
+                Content="Start"
+                Margin="50,0,0,0"
+                Foreground="LawnGreen"
+                Background="Beige"
+                Click="btnCallNumber_Click"/>
+
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="60,143,25,272" Grid.Row="1">
+
+            <Image Width="65" Height="65"
+                Source="images\replacebook.png"
+                Margin="0,0,20,0"
+                RenderOptions.BitmapScalingMode="Fant"/>
+
+            <TextBlock Text="REPLACING BOOKS"
+                Foreground="Black"
+                FontSize="15"
+                FontWeight="Bold"
+                VerticalAlignment="Center"
+                FontFamily="Helvetica"/>
+
+            <Button x:Name="replaceBooks" 
+                Width="80" Height="30" 
+                Content="Start"
+                Margin="60,15,0,15"
+                Foreground="LawnGreen"
+                Background="Beige"
+                Click="btnReaplaceBooks_Click"/>
+
+        </StackPanel>
+
+        <TextBlock Text="LIBRARY MANAGEMENT GAME"
+                Foreground="Black"
+                FontSize="20"
+                FontWeight="Bold"
+                FontFamily="Helvetica" Margin="75,80,40,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top"/>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,155 @@
+
+000 ART
+  000 ART FOR EVERYONE
+    001 Knowledge
+    002 Painters
+    003 Scetchers
+    004 Famous Works
+    005 Galleries
+
+  080 MEDIUMS
+    080 Painting
+    081 Drawing
+    082 Sculpture
+    083 Acrylic
+    084 Charcoal
+   085 Photography
+
+100 PHILOSOPHY AND PSYCHOLOGY
+  100 UNDERSTNADING THE MIND
+    101 Theory of philosophy
+    102 Miscellany
+    103 Encyclopaedias
+    104 Stoicism
+    105 New Ideas
+
+  150 A NEW WAY OF THINKING 
+    150 Psychology
+     151 Intellect
+    152 Perception
+    153 Conscious intelligence
+    154 Subconscious and altered states 
+    155 Developmental psychology
+
+ 
+200 SPORTS
+  200 SPORTS HISTORY
+    201 Famous Players
+    202 Football
+    203 Rugby
+    204 Cricket
+    205 Golf
+
+  220 FOOTBALL STRATEGY
+    221 Tiki-Taka
+    222 Counter Attack
+    223 Park The Bus
+    224 The Long Ball Game
+    225 High Press
+
+300 BIOLOGY
+  300 ANATOMY AND DIET
+    301 Human Body
+    302 Mammals
+    303 Herbivores
+    304 Fish
+    305 Habitats
+
+  310 CELLS
+    310 Nucleus
+    311 Mitocondria
+    312 Endoplasmic Recticulum
+    313 Golgi Aparatus
+    314 Ribosomes
+    315 Vacuole
+
+400 PHYSICS
+  400 PHYSICAL SCIENCES
+    401 Quantum Mechanics
+    402 Thermo Dynamics
+    403 Nuclear Pysics
+    404 Electromagnets
+    405 Partical Physics
+
+  410 ELECTRICY
+    411 Fields
+    412 Charges
+    413 Statics
+    414 Coulombs Law
+    415 Current
+
+500 MATHEMATICS
+  500 THE COMPLETE MATHEMATICAL BREAKDOWN
+    501 Algebra
+    502 Calculus
+    503 Geometry
+    505 Number Theory
+    506 Game Theory
+
+  510 ATATISTICS
+    511 Probability
+    512 Inference
+    513 Standard Deviation
+    514 Histograms
+    515 Normal Distribution
+
+600 COMPUTER SCIENCE
+  600 COMPUTER THEORY
+    601 Artificial Intelligence
+    602 Machine Learning
+    603 Computer Vision
+    604 Computer Architecture
+    605 Networks
+
+  610 PROGRAMMING LANGUAGES
+    611 C#
+    612 Pyhton
+    613 Java
+    614 HTML
+    615 Ruby
+
+700 DESIGN
+  700 CREATIVE MEDIUMS
+    701 Colour Theory
+    702 Typography
+    703 Emotion through imagery
+    704 Design Publications
+    705 Famous Design works
+
+  720 FIELDS OF DESIGN
+    721 Advertising
+    722 Illustration
+    723 Game Design
+    724 UI and interactive
+    725 Creative Design
+
+
+
+800 FICTION
+  800 NEW RELEASES
+    801 Mystery
+    802 Fantasy
+    803 Romance
+    805 Thirller
+
+  810 SCI FI
+    811 Aliens
+    812 Dark Mater
+    813 Apocalypse
+    814 Invasion
+    815 Sci-fi Comedy
+
+900 HISTORY 
+  900 THE COMPLETE COLLECTION OF THE PAST
+    901 Ancient History
+    902 Civil War
+    903 Cultural History
+    904 Economic Histroy
+    905 Diplomatic History
+
+  910 CIVILIZATIONS
+    911 Mesopotamia
+    912 Sumer 
+    913 Inca Empire
+    914 Ancient Egypt
+    915 Roman empire
